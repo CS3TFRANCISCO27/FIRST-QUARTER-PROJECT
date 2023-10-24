@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+.header {
+    background-color: #272829;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu-icon, .roblox-icon, .search-bar, .profile, .notification-bar, .robux, .settings-icon, .discover {
+    margin: 0 13px; /* Adjust the margin as needed */
+}
+
+.discover {
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar input {
+    width: 900px;
+    padding: 5px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-info {
+    display: flex;
+}
+
+.player-name {
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.headerpic {
+    width: 10%;
+    border-radius: 100px;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+	margin-left: 10px;
+	margin-top:10px;
+}	
+
+h1 {
+    position: relative;
+    top: 60px;
+}
+
+img {
+    width: 10%;
+    border-radius: 100px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+* {
+    color: #f0f0f0;
+}
+
+.icfriends {
+    width: 1000px;
+    margin: 10px;
+}
+
+.cfriends {
+    width: 1000px;
+    margin: 10px;
+}
+
